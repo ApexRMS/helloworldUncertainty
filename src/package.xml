@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package name="helloworldUncertainty" displayName="Hello World Uncertainty (R)" description="Example demonstrating how to use iterations" version="2.0.0" url="https://apexrms.github.io/helloworldEnhanced/">
-
-	<!--Scenario Datasheets-->
+<package name="helloworldUncertainty" displayName="Hello World Uncertainty (R)" description="Example demonstrating how to use iterations with an R model" version="2.0.0" url="https://apexrms.github.io/helloworldEnhanced/">
 
 	<!--Run Control-->
 	<dataSheet name="RunControl" displayName="Run Control" isRunControl="True" timestepTitle="Timestep" showMinIteration="False"></dataSheet>
@@ -19,14 +17,11 @@
 	</dataSheet>
 
 	<!--Transformers-->
-
 	<transformer name="Main" displayName="Hello World Uncertainty" programName="Rscript" programArguments="model.R">
 		<dataSheet name="RunControl" type="Input"/>
 		<dataSheet name="InputDatasheet" type="Input"/>
 		<dataSheet name="OutputDatasheet" type="Output"/>
 	</transformer>
-
-	<!--Layouts-->
 
 	<!--Scenario Datafeeds Layout-->
 	<layout type="Scenario">

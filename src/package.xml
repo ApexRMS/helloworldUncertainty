@@ -19,7 +19,7 @@
 	</dataSheet>
 
 	<!--Transformers-->
-	<transformer name="Main" displayName="Hello World Uncertainty" programArguments="model.R" condaEnv="helloworldR.yml" condaEnvVersion="1">
+	<transformer name="Main" displayName="Hello World Uncertainty (R)" programArguments="model.R" condaEnv="helloworldR.yml" condaEnvVersion="1">
 		<dataSheet name="RunControl" type="Input"/>
 		<dataSheet name="InputDatasheet" type="Input"/>
 		<dataSheet name="OutputDatasheet" type="Output"/>

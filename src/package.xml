@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package name="helloworldUncertainty" displayName="Hello World Uncertainty (R)" description="Example demonstrating how to use iterations with an R model" version="2.0.2" url="https://apexrms.github.io/helloworldEnhanced/">
+<package name="helloworldUncertainty" displayName="Hello World Uncertainty (R)" description="Example demonstrating how to use iterations with an R model" version="2.1.0" url="https://apexrms.github.io/helloworldEnhanced/" minSyncroSimVersion="3.1.0">
 
 	<!--Scenario Datasheets-->
 
@@ -19,7 +19,7 @@
 	</dataSheet>
 
 	<!--Transformers-->
-	<transformer name="Main" displayName="Hello World Uncertainty (R)" programArguments="model.R" condaEnv="helloworldR.yml" condaEnvVersion="1">
+	<transformer name="Main" displayName="Hello World Uncertainty (R)" programArguments="model.R" condaEnv="helloworldR.yml" condaEnvVersion="2">
 		<dataSheet name="RunControl" type="Input"/>
 		<dataSheet name="InputDatasheet" type="Input"/>
 		<dataSheet name="OutputDatasheet" type="Output"/>

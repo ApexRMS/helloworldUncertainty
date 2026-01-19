@@ -40,3 +40,9 @@ vignettes/*.pdf
 
 # Visual studio
 *.vs/
+
+# Metadata
+.metadata
+
+# SyncroSim packages
+*.ssimpkg
